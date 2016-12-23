@@ -1,0 +1,39 @@
+C:\Users\rypenai\documents\visual studio 2015\Projects\Visug2CommitBOTApp\bin\Bot Application1.dll.config
+C:\Users\rypenai\documents\visual studio 2015\Projects\Visug2CommitBOTApp\bin\Bot Application1.dll
+C:\Users\rypenai\documents\visual studio 2015\Projects\Visug2CommitBOTApp\bin\Bot Application1.pdb
+C:\Users\rypenai\documents\visual studio 2015\Projects\Visug2CommitBOTApp\bin\Autofac.dll
+C:\Users\rypenai\documents\visual studio 2015\Projects\Visug2CommitBOTApp\bin\Chronic.dll
+C:\Users\rypenai\documents\visual studio 2015\Projects\Visug2CommitBOTApp\bin\Microsoft.Bot.Builder.dll
+C:\Users\rypenai\documents\visual studio 2015\Projects\Visug2CommitBOTApp\bin\Microsoft.Bot.Connector.dll
+C:\Users\rypenai\documents\visual studio 2015\Projects\Visug2CommitBOTApp\bin\Microsoft.IdentityModel.Protocol.Extensions.dll
+C:\Users\rypenai\documents\visual studio 2015\Projects\Visug2CommitBOTApp\bin\Microsoft.Rest.ClientRuntime.dll
+C:\Users\rypenai\documents\visual studio 2015\Projects\Visug2CommitBOTApp\bin\Microsoft.WindowsAzure.Configuration.dll
+C:\Users\rypenai\documents\visual studio 2015\Projects\Visug2CommitBOTApp\bin\Newtonsoft.Json.dll
+C:\Users\rypenai\documents\visual studio 2015\Projects\Visug2CommitBOTApp\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\rypenai\documents\visual studio 2015\Projects\Visug2CommitBOTApp\bin\System.Net.Http.Formatting.dll
+C:\Users\rypenai\documents\visual studio 2015\Projects\Visug2CommitBOTApp\bin\System.Web.Http.dll
+C:\Users\rypenai\documents\visual studio 2015\Projects\Visug2CommitBOTApp\bin\System.Web.Http.WebHost.dll
+C:\Users\rypenai\documents\visual studio 2015\Projects\Visug2CommitBOTApp\bin\Autofac.xml
+C:\Users\rypenai\documents\visual studio 2015\Projects\Visug2CommitBOTApp\bin\Microsoft.Bot.Builder.xml
+C:\Users\rypenai\documents\visual studio 2015\Projects\Visug2CommitBOTApp\bin\Microsoft.Bot.Connector.xml
+C:\Users\rypenai\documents\visual studio 2015\Projects\Visug2CommitBOTApp\bin\Microsoft.IdentityModel.Protocol.Extensions.pdb
+C:\Users\rypenai\documents\visual studio 2015\Projects\Visug2CommitBOTApp\bin\Microsoft.IdentityModel.Protocol.Extensions.xml
+C:\Users\rypenai\documents\visual studio 2015\Projects\Visug2CommitBOTApp\bin\Microsoft.Rest.ClientRuntime.xml
+C:\Users\rypenai\documents\visual studio 2015\Projects\Visug2CommitBOTApp\bin\Microsoft.WindowsAzure.Configuration.xml
+C:\Users\rypenai\documents\visual studio 2015\Projects\Visug2CommitBOTApp\bin\Newtonsoft.Json.xml
+C:\Users\rypenai\documents\visual studio 2015\Projects\Visug2CommitBOTApp\bin\System.IdentityModel.Tokens.Jwt.pdb
+C:\Users\rypenai\documents\visual studio 2015\Projects\Visug2CommitBOTApp\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\rypenai\documents\visual studio 2015\Projects\Visug2CommitBOTApp\bin\System.Net.Http.Formatting.xml
+C:\Users\rypenai\documents\visual studio 2015\Projects\Visug2CommitBOTApp\bin\System.Web.Http.xml
+C:\Users\rypenai\documents\visual studio 2015\Projects\Visug2CommitBOTApp\bin\System.Web.Http.WebHost.xml
+C:\Users\rypenai\documents\visual studio 2015\Projects\Visug2CommitBOTApp\bin\ar\Microsoft.Bot.Builder.resources.dll
+C:\Users\rypenai\documents\visual studio 2015\Projects\Visug2CommitBOTApp\bin\en\Microsoft.Bot.Builder.resources.dll
+C:\Users\rypenai\documents\visual studio 2015\Projects\Visug2CommitBOTApp\bin\es\Microsoft.Bot.Builder.resources.dll
+C:\Users\rypenai\documents\visual studio 2015\Projects\Visug2CommitBOTApp\bin\fa\Microsoft.Bot.Builder.resources.dll
+C:\Users\rypenai\documents\visual studio 2015\Projects\Visug2CommitBOTApp\bin\fr\Microsoft.Bot.Builder.resources.dll
+C:\Users\rypenai\documents\visual studio 2015\Projects\Visug2CommitBOTApp\bin\ja\Microsoft.Bot.Builder.resources.dll
+C:\Users\rypenai\documents\visual studio 2015\Projects\Visug2CommitBOTApp\bin\ru\Microsoft.Bot.Builder.resources.dll
+C:\Users\rypenai\documents\visual studio 2015\Projects\Visug2CommitBOTApp\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
+C:\Users\rypenai\documents\visual studio 2015\Projects\Visug2CommitBOTApp\obj\Release\Bot Application1.dll
+C:\Users\rypenai\documents\visual studio 2015\Projects\Visug2CommitBOTApp\obj\Release\Bot Application1.pdb
+C:\Users\rypenai\documents\visual studio 2015\Projects\Visug2CommitBOTApp\obj\Release\Visug2CommitBOTApp.csprojResolveAssemblyReference.cache
