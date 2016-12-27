@@ -98,36 +98,347 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-h1 {
-    font-family: 'Impact LT Std', serif;
-    font-size: 4rem;
-    color: white;
+.link {
+    color: #3FD2E1;
+}
+.link:hover {
+    background-color: white;
+    cursor: pointer;
 }
 
-h3 {
-    font-family: 'Roboto', serif;
-    font-size: 2rem;
-    color: white;
+.robotImg:hover {
+    opacity:.7;
 }
 
-.meet2commit {
-    margin-top: 1.5rem;
+.chatwindow {
+    display: block;
     text-align: center;
+    margin: 7rem auto 15rem;
 }
 
-.whychatbot {
-    margin-top: 5rem;
-}
-
-.whychatbottext {
-    margin-top: 5rem;
+.socialicons {
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    display: inline;
 }
 
-body {
-    background-color: transparent;
-    overflow-x: hidden;
+@media (max-width: 449px) {
+    h1 {
+        font-family: 'Oswald', serif;
+        font-size: 2rem;
+        font-weight: bold;
+        color: white;
+    }
+
+    h3 {
+        font-family: 'Roboto', serif;
+        font-size: 1rem;
+        color: white;
+    }
+
+    h5 {
+        font-family: 'Roboto', serif;
+        font-size: 0.6rem;
+        color: white;
+    }
+
+    .meet2commit {
+        text-align: center;
+    }
+
+    .whychatbot {
+        margin-top: 1rem;
+    }
+
+    .whychatbottext {
+        text-align: center;
+        margin-top: 2rem;
+    }
+
+    .robotImg {
+        width: 120px;
+        height: 180px;
+        margin-left: -35px;
+    }
+
+    body {
+        background-color: transparent;
+        overflow-x: hidden;
+    }
+
+    .chatwindowiframe {
+        background-color: white;
+        width: 250px;
+        height: 200px;
+    }
 }
+
+@media (min-width: 450px) {
+    h1 {
+        font-family: 'Oswald', serif;
+        font-size: 3rem;
+        font-weight: bold;
+        color: white;
+    }
+
+    h3 {
+        font-family: 'Roboto', serif;
+        font-size: 1.3rem;
+        color: white;
+    }
+
+    h5 {
+        font-family: 'Roboto', serif;
+        font-size: 0.8rem;
+        color: white;
+    }
+
+    .meet2commit {
+        text-align: center;
+    }
+
+    .whychatbot {
+        margin-top: 1rem;
+    }
+
+    .whychatbottext {
+        text-align: center;
+        margin-top: 3.5rem;
+    }
+
+    .robotImg {
+        width: 160px;
+        height: 240px;
+        margin-left: -35px;
+    }
+
+    body {
+        background-color: transparent;
+        overflow-x: hidden;
+    }
+
+    .chatwindowiframe {
+        background-color: white;
+        width: 350px;
+        height: 400px;
+    }
+}
+
+@media (min-width: 650px) {
+    h1 {
+        font-family: 'Oswald', serif;
+        font-size: 3rem;
+        font-weight: bold;
+        color: white;
+    }
+
+    h3 {
+        font-family: 'Roboto', serif;
+        font-size: 1.8rem;
+        color: white;
+    }
+
+    h5 {
+        font-family: 'Roboto', serif;
+        font-size: 1.4rem;
+        color: white;
+    }
+
+    .meet2commit {
+        text-align: center;
+    }
+
+    .whychatbot {
+        margin-top: 1rem;
+    }
+
+    .whychatbottext {
+        text-align: center;
+        margin-top: 6rem;
+    }
+
+    .robotImg {
+        width: 240px;
+        height: 360px;
+        margin-left: -35px;
+    }
+
+    body {
+        background-color: transparent;
+        overflow-x: hidden;
+    }
+
+    .chatwindowiframe {
+        background-color: white;
+        width: 450px;
+        height: 400px;
+    }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    h1 {
+        font-family: 'Oswald', serif;
+        font-size: 4rem;
+        font-weight: bold;
+        color: white;
+    }
+
+    h3 {
+        font-family: 'Roboto', serif;
+        font-size: 2rem;
+        color: white;
+    }
+
+    h5 {
+        font-family: 'Roboto', serif;
+        font-size: 1.7rem;
+        color: white;
+    }
+
+    .meet2commit {
+        margin-top: 1.5rem;
+        text-align: center;
+    }
+
+    .whychatbot {
+        margin-top: 3rem;
+    }
+
+    .whychatbottext {
+        margin-top: 12rem;
+        text-align: center;
+        margin-left: 4rem;
+    }
+
+    .robotImg {
+        margin-left: -5rem;
+        width: 400px;
+        height: 600px;
+    }
+
+    body {
+        background-color: transparent;
+        overflow-x: hidden;
+    }
+
+    .chatwindowiframe {
+        background-color: white;
+        width: 600px;
+        height: 400px;
+    }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    h1 {
+        font-family: 'Oswald', serif;
+        font-size: 4rem;
+        font-weight: bold;
+        color: white;
+    }
+
+    h3 {
+        font-family: 'Roboto', serif;
+        font-size: 2rem;
+        color: white;
+    }
+
+    h5 {
+        font-family: 'Roboto', serif;
+        font-size: 1.7rem;
+        color: white;
+    }
+
+    .meet2commit {
+        margin-top: 1.5rem;
+        text-align: center;
+    }
+
+    .whychatbot {
+        margin-top: 3rem;
+    }
+
+    .whychatbottext {
+        margin-top: 12rem;
+        text-align: center;
+        margin-left: 4rem;
+    }
+
+    .robotImg {
+        margin-left: -5rem;
+        width: 400px;
+        height: 600px;
+    }
+
+    body {
+        background-color: transparent;
+        overflow-x: hidden;
+    }
+
+    .chatwindowiframe {
+        background-color: white;
+        width: 800px;
+        height: 400px;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    h1 {
+        font-family: 'Oswald', serif;
+        font-size: 5rem;
+        font-weight: bold;
+        color: white;
+    }
+
+    h3 {
+        font-family: 'Roboto', serif;
+        font-size: 4rem;
+        color: white;
+    }
+
+    h5 {
+        font-family: 'Roboto', serif;
+        font-size: 2.6rem;
+        color: white;
+    }
+
+    .meet2commit {
+        margin-top: 1.5rem;
+        text-align: center;
+    }
+
+    .whychatbot {
+        margin-top: 5rem;
+    }
+
+    .whychatbottext {
+        margin-top: 9rem;
+        margin-left: -5rem;
+        margin-right: 10rem;
+        text-align: center;
+    }
+
+    .robotImg {
+        margin-left: 2rem;
+        width: 400px;
+        height: 600px;
+    }
+
+    body {
+        background-color: transparent;
+        overflow-x: hidden;
+    }
+
+    .chatwindowiframe {
+        background-color: white;
+        width: 800px;
+        height: 400px;
+    }
+}
+
 
 /* ==========================================================================
    Helper classes
