@@ -15,8 +15,11 @@ namespace Visug2CommitBOTApp
         protected void Application_Start()
         {
             GlobalConfiguration.Configure(WebApiConfig.Register);
-            VisugRepo<Registrant>.Initialize(ConfigurationManager.AppSettings["collection-registrant-data"]);
-            VisugRepo<RegistrantBotData>.Initialize(ConfigurationManager.AppSettings["collection-registrant-bot-data"]);
+
+            //VisugRepo<Registrant>.Initialize(ConfigurationManager.AppSettings["collection-registrant-data"]);
+            //VisugRepo<RegistrantBotData>.Initialize(ConfigurationManager.AppSettings["collection-registrant-bot-data"]);
+
+            VisugRepoTableStorage<Registrant>.Initialize(ConfigurationManager.AppSettings["registrant-table"]);
         }
     }
 }

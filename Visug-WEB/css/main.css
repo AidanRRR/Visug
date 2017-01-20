@@ -98,6 +98,10 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+h5 {
+    margin-top: 1rem;
+}
+
 .link {
     color: #3FD2E1;
 }
@@ -123,7 +127,10 @@ textarea {
     display: inline;
 }
 
-@media (max-width: 449px) {
+.content-wrap {
+}
+
+@media (max-width: 450px) {
     h1 {
         font-family: 'Oswald', serif;
         font-size: 2rem;
@@ -157,9 +164,10 @@ textarea {
     }
 
     .robotImg {
-        width: 120px;
-        height: 180px;
-        margin-left: -35px;
+        margin: auto;
+        display: block;
+        width: 160px;
+        height: 240px;
     }
 
     body {
@@ -177,65 +185,14 @@ textarea {
 @media (min-width: 450px) {
     h1 {
         font-family: 'Oswald', serif;
-        font-size: 3rem;
+        font-size: 3.6rem;
         font-weight: bold;
         color: white;
     }
 
     h3 {
         font-family: 'Roboto', serif;
-        font-size: 1.3rem;
-        color: white;
-    }
-
-    h5 {
-        font-family: 'Roboto', serif;
-        font-size: 0.8rem;
-        color: white;
-    }
-
-    .meet2commit {
-        text-align: center;
-    }
-
-    .whychatbot {
-        margin-top: 1rem;
-    }
-
-    .whychatbottext {
-        text-align: center;
-        margin-top: 3.5rem;
-    }
-
-    .robotImg {
-        width: 160px;
-        height: 240px;
-        margin-left: -35px;
-    }
-
-    body {
-        background-color: transparent;
-        overflow-x: hidden;
-    }
-
-    .chatwindowiframe {
-        background-color: white;
-        width: 350px;
-        height: 400px;
-    }
-}
-
-@media (min-width: 650px) {
-    h1 {
-        font-family: 'Oswald', serif;
-        font-size: 3rem;
-        font-weight: bold;
-        color: white;
-    }
-
-    h3 {
-        font-family: 'Roboto', serif;
-        font-size: 1.8rem;
+        font-size: 1.6rem;
         color: white;
     }
 
@@ -246,22 +203,26 @@ textarea {
     }
 
     .meet2commit {
+        margin-top: 1.2rem;
         text-align: center;
     }
 
     .whychatbot {
-        margin-top: 1rem;
+        margin-top: 0.6rem;
     }
 
     .whychatbottext {
+        margin-top: 5rem;
         text-align: center;
-        margin-top: 6rem;
+        margin-left: 1rem;
+        margin-right: 1rem;
     }
 
     .robotImg {
-        width: 240px;
-        height: 360px;
-        margin-left: -35px;
+        margin: -2rem auto auto;
+        display: block;
+        width: 250px;
+        height: 375px;
     }
 
     body {
@@ -271,8 +232,8 @@ textarea {
 
     .chatwindowiframe {
         background-color: white;
-        width: 450px;
-        height: 400px;
+        width: 400px;
+        height: 300px;
     }
 }
 
@@ -330,6 +291,61 @@ textarea {
     }
 }
 
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    h1 {
+        font-family: 'Oswald', serif;
+        font-size: 4rem;
+        font-weight: bold;
+        color: white;
+    }
+
+    h3 {
+        font-family: 'Roboto', serif;
+        font-size: 2rem;
+        color: white;
+    }
+
+    h5 {
+        font-family: 'Roboto', serif;
+        font-size: 1.7rem;
+        color: white;
+    }
+
+    .meet2commit {
+        margin-top: 1.5rem;
+        text-align: center;
+    }
+
+    .whychatbot {
+        margin-top: 3rem;
+    }
+
+    .whychatbottext {
+        margin-top: 12rem;
+        text-align: center;
+        margin-left: 4rem;
+    }
+
+    .robotImg {
+        width: 350px;
+        height: 525px;
+        margin-left: 2rem;
+        margin-top: 2rem;
+    }
+
+    body {
+        background-color: transparent;
+        overflow-x: hidden;
+    }
+
+    .chatwindowiframe {
+        background-color: white;
+        width: 600px;
+        height: 400px;
+    }
+}
+
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
     h1 {
@@ -367,9 +383,10 @@ textarea {
     }
 
     .robotImg {
-        margin-left: -5rem;
-        width: 400px;
-        height: 600px;
+        width: 350px;
+        height: 525px;
+        margin-left: 2rem;
+        margin-top: 2rem;
     }
 
     body {
@@ -411,18 +428,14 @@ textarea {
     }
 
     .whychatbot {
-        margin-top: 5rem;
+        text-align: center;
     }
 
     .whychatbottext {
-        margin-top: 9rem;
-        margin-left: -5rem;
-        margin-right: 10rem;
         text-align: center;
     }
 
     .robotImg {
-        margin-left: 2rem;
         width: 400px;
         height: 600px;
     }

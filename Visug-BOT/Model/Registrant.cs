@@ -3,27 +3,25 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
+using Microsoft.WindowsAzure.Storage.Table;
 using Newtonsoft.Json;
 
 namespace Visug2CommitBOTApp.Model
 {
-    public class Registrant
+    public class Registrant : TableEntity
     {
-        [JsonProperty(PropertyName = "RegistrantID")]
-        public Guid RegistrantId { get; set; }
-        [JsonProperty(PropertyName = "FirstName")]
         public string FirstName { get; set; }
-        [JsonProperty(PropertyName = "LastName")]
         public string LastName { get; set; }
-        [JsonProperty(PropertyName = "Email")]
         public string Email { get; set; }
-        [JsonProperty(PropertyName = "Timestamp")]
-        public DateTime Timestamp { get; set; }
+        public new DateTime Timestamp { get; set; }
+        public DateTime StartTime { get; set; }
+        public DateTime EndTime { get; set; }
 
-        public Registrant()
+        public Registrant(string firstName, string lastName)
         {
-            RegistrantId = Guid.NewGuid();
-            Timestamp = DateTime.UtcNow;
+            this.PartitionKey = lastName;
+            this.RowKey = firstName;
+            StartTime = DateTime.UtcNow;
         }
     }
 }

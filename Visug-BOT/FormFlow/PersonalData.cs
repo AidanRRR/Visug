@@ -32,20 +32,14 @@ namespace Visug2CommitBOTApp.FormFlow
             OnCompletionAsyncDelegate<PersonalData> processPersonalData = async (context, state) =>
             {
                 await context.PostAsync("Sending data to Azure...");
-                var registrant = new Registrant
+                var registrant = new Registrant(firstName: state.FirstName, lastName: state.LastName)
                 {
                     Email = state.Email,
-                    FirstName = state.FirstName,
-                    LastName = state.LastName
-                };
-                var registrantBotData = new RegistrantBotData
-                {
                     StartTime = state.StartTime,
-                    EndTime = DateTime.UtcNow,
-                    RegistrantId = registrant.RegistrantId
+                    EndTime = DateTime.UtcNow
                 };
-                await VisugRepo<Registrant>.CreateItemAsync(registrant, "collection-registrant-data");
-                await VisugRepo<RegistrantBotData>.CreateItemAsync(registrantBotData, "collection-registrant-bot-data");
+
+                await VisugRepoTableStorage<Registrant>.CreateItemAsync(registrant);
             };
 
             return new FormBuilder<PersonalData>()
