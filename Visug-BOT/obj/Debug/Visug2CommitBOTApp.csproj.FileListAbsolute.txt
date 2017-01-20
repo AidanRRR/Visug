@@ -129,3 +129,4 @@ C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\fr\Microsoft.Bot.Builder.re
 C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\ja\Microsoft.Bot.Builder.resources.dll
 C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\ru\Microsoft.Bot.Builder.resources.dll
 C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\obj\Debug\Visug2CommitBOTApp.csprojResolveAssemblyReference.cache

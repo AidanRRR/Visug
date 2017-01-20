@@ -13,9 +13,9 @@ namespace Visug2CommitBOTApp.Persistence
 
         public static void Initialize(string collectionId)
         {
-            //_client = new DocumentClient(new Uri(ConfigurationManager.AppSettings["endpoint"]), ConfigurationManager.AppSettings["authKey"]);
-            //CreateDatabaseIfNotExistsAsync().Wait();
-            //CreateCollectionIfNotExistsAsync(collectionId).Wait();
+            _client = new DocumentClient(new Uri(ConfigurationManager.AppSettings["endpoint"]), ConfigurationManager.AppSettings["authKey"]);
+            CreateDatabaseIfNotExistsAsync().Wait();
+            CreateCollectionIfNotExistsAsync(collectionId).Wait();
         }
         private static async Task CreateDatabaseIfNotExistsAsync()
         {

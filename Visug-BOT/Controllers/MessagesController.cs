@@ -28,8 +28,15 @@ namespace Visug2CommitBOTApp.Controllers
 
         public async Task<HttpResponseMessage> Post([FromBody]Activity activity)
         {
+            await Conversation.SendAsync(activity, MakePersonalDataDialog);
+            var response = Request.CreateResponse(HttpStatusCode.OK);
+
+            return response;
+
+            /*
             if (activity.Type == ActivityTypes.Message)
             {   
+                
                 await Conversation.SendAsync(activity, MakePersonalDataDialog);
             }
             else
@@ -38,6 +45,7 @@ namespace Visug2CommitBOTApp.Controllers
             }
             var response = Request.CreateResponse(HttpStatusCode.OK);
             return response;
+            */
         }
 
         private Activity HandleSystemMessage(Activity message)

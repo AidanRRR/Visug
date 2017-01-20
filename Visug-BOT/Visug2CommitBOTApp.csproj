@@ -166,6 +166,7 @@
   <ItemGroup>
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\MessagesController.cs" />
+    <Compile Include="Dialogs\StartDialog.cs" />
     <Compile Include="Dialogs\testdialog.cs" />
     <Compile Include="FormFlow\PersonalData.cs" />
     <Compile Include="Global.asax.cs">
