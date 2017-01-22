@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ee76c2d-c128-4fa9-b528-0353be017137" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-    </list>
+    <list default="true" id="3ee76c2d-c128-4fa9-b528-0353be017137" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -23,75 +21,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
+      <file leaf-file-name="A4 Link.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/A4 Link.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="40" column="52" lean-forward="true" selection-start-line="40" selection-start-column="52" selection-end-line="40" selection-end-column="52" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/main.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="872">
-              <caret line="439" column="21" lean-forward="true" selection-start-line="439" selection-start-column="21" selection-end-line="439" selection-end-column="21" />
+            <state relative-caret-position="1103">
+              <caret line="68" column="0" lean-forward="true" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
               <folding>
-                <element signature="e#2156#2179#0" expanded="false" />
-                <element signature="e#2192#2245#0" expanded="false" />
-                <element signature="e#2263#2282#0" expanded="false" />
-                <element signature="e#2296#2372#0" expanded="false" />
-                <element signature="e#2387#2482#0" expanded="false" />
-                <element signature="e#2503#3359#0" expanded="false" />
-                <element signature="e#3361#4317#0" expanded="false" />
-                <element signature="e#4363#5257#0" expanded="false" />
-                <element signature="e#4398#4517#0" expanded="false" />
-                <element signature="e#4526#4618#0" expanded="false" />
-                <element signature="e#4627#4721#0" expanded="false" />
-                <element signature="e#4740#4803#0" expanded="false" />
-                <element signature="e#4821#4854#0" expanded="false" />
-                <element signature="e#4876#4965#0" expanded="false" />
-                <element signature="e#5072#5146#0" expanded="false" />
-                <element signature="e#5170#5255#0" expanded="false" />
-                <element signature="e#5303#6222#0" expanded="false" />
-                <element signature="e#5338#5457#0" expanded="false" />
-                <element signature="e#5466#5558#0" expanded="false" />
-                <element signature="e#5567#5661#0" expanded="false" />
-                <element signature="e#5680#5743#0" expanded="false" />
-                <element signature="e#5761#5794#0" expanded="false" />
-                <element signature="e#5816#5905#0" expanded="false" />
-                <element signature="e#6037#6111#0" expanded="false" />
-                <element signature="e#6135#6220#0" expanded="false" />
-                <element signature="e#6270#7189#0" expanded="false" />
-                <element signature="e#6305#6424#0" expanded="false" />
-                <element signature="e#6433#6525#0" expanded="false" />
-                <element signature="e#6534#6628#0" expanded="false" />
-                <element signature="e#6647#6710#0" expanded="false" />
-                <element signature="e#6728#6761#0" expanded="false" />
-                <element signature="e#6783#6872#0" expanded="false" />
-                <element signature="e#6888#6993#0" expanded="false" />
-                <element signature="e#7004#7078#0" expanded="false" />
-                <element signature="e#7102#7187#0" expanded="false" />
-                <element signature="e#7953#8027#0" expanded="false" />
-                <element signature="e#8051#8136#0" expanded="false" />
-                <element signature="e#8141#8317#0" expanded="false" />
-                <element signature="e#8319#8366#0" expanded="false" />
-                <element signature="e#8376#8409#0" expanded="false" />
-                <element signature="e#8411#8556#0" expanded="false" />
-                <element signature="e#8574#8730#0" expanded="false" />
-                <element signature="e#8732#8889#0" expanded="false" />
-                <element signature="e#8957#9071#0" expanded="false" />
-                <element signature="e#9073#9141#0" expanded="false" />
-                <element signature="e#9154#9181#0" expanded="false" />
-                <element signature="e#9183#9637#0" expanded="false" />
-                <element signature="e#9673#9730#0" expanded="false" />
-                <element signature="e#9748#9768#0" expanded="false" />
-                <element signature="e#9770#10071#0" expanded="false" />
-                <element signature="e#10073#10183#0" expanded="false" />
-                <element signature="e#10185#10372#0" expanded="false" />
-                <element signature="e#10655#11900#0" expanded="false" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -116,6 +52,7 @@
       <find>bot</find>
       <find>&lt;body&gt;</find>
       <find>works</find>
+      <find>meet</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -130,6 +67,7 @@
         <option value="$PROJECT_DIR$/commands/commands.txt" />
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/A4 Link.html" />
       </list>
     </option>
   </component>
@@ -176,34 +114,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Visug-WEB" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Visug-WEB" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Visug-WEB" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="Visug-WEB" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="commands" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -223,6 +133,11 @@
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\rypenai\Documents\repos\Visug\Visug-WEB" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
@@ -302,12 +217,12 @@
       <workItem from="1482829231516" duration="17704000" />
       <workItem from="1483976773026" duration="5622000" />
       <workItem from="1484300866750" duration="169000" />
-      <workItem from="1485086565166" duration="2161000" />
+      <workItem from="1485086565166" duration="4638000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33012000" />
+    <option name="totallyTimeSpent" value="35489000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -726,6 +641,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery-qrcode-0.14.0.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1719">
+          <caret line="1" column="2798" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="21058" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jquery-qrcode-0.14.0.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="40" column="52" lean-forward="true" selection-start-line="40" selection-start-column="52" selection-end-line="40" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="872">
@@ -788,11 +727,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/A4 Link.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="40" column="52" lean-forward="true" selection-start-line="40" selection-start-column="52" selection-end-line="40" selection-end-column="52" />
-          <folding />
+        <state relative-caret-position="1103">
+          <caret line="68" column="0" lean-forward="true" selection-start-line="68" selection-start-column="0" selection-end-line="68" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
