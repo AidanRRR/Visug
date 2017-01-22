@@ -405,20 +405,20 @@ h5 {
 @media (min-width: 1200px) {
     h1 {
         font-family: 'Oswald', serif;
-        font-size: 5rem;
+        font-size: 6rem;
         font-weight: bold;
         color: white;
     }
 
     h3 {
         font-family: 'Roboto', serif;
-        font-size: 4rem;
+        font-size: 3.5rem;
         color: white;
     }
 
     h5 {
         font-family: 'Roboto', serif;
-        font-size: 2.6rem;
+        font-size: 2rem;
         color: white;
     }
 
@@ -428,16 +428,19 @@ h5 {
     }
 
     .whychatbot {
-        text-align: center;
     }
 
     .whychatbottext {
+        margin-top: 8rem;
         text-align: center;
+        margin-left: 10rem;
     }
 
     .robotImg {
         width: 400px;
         height: 600px;
+        margin-left: 8rem;
+        margin-top: -5rem;
     }
 
     body {
