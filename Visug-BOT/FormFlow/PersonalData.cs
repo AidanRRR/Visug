@@ -23,10 +23,12 @@ namespace Visug2CommitBOTApp.FormFlow
         public bool WinGadgets { get; set; }
         [Prompt("What's your first name?")]
         public string FirstName { get; set; }
-        [Prompt("What's your last name?")]
+        [Prompt("Nice to meet you {FirstName}, What's your last name?")]
         public string LastName { get; set; }
         [Prompt("What's your email?")]
         public string Email { get; set; }
+        [Prompt("Thank you {FirstName} {LastName}. Can we contact you on your email ({Email}) regarding Azure & .NET news?")]
+        public bool CanContactByEmail { get; set; }
         private DateTime StartTime { get; set; }
 
         public PersonalData()
@@ -43,52 +45,35 @@ namespace Visug2CommitBOTApp.FormFlow
                 {
                     Email = state.Email,
                     StartTime = state.StartTime,
-                    EndTime = DateTime.UtcNow
+                    EndTime = DateTime.UtcNow,
+                    CanContactByEmail = state.CanContactByEmail,
+                    WinGadgets = state.WinGadgets
                 };
 
                 await VisugRepoTableStorage<Registrant>.CreateItemAsync(registrant);
 
                 Thread.Sleep(2500);
-                await context.PostAsync("Just kidding, your data was sent to Azure.");
+
+                if (state.WinGadgets)
+                {
+                    await context.PostAsync("Just kidding, your data was sent to Azure. \n We will contact you next week regarding the tech gadgets. \n - Esther");
+                }
+                else
+                {
+                    await context.PostAsync("Just kidding, your data was sent to Azure. - Esther");
+                }
+
             };
 
             return new FormBuilder<PersonalData>()
                 .Message("Hello, this is Esther. I'm the 2Commit bot!")
                 .Field(nameof(FirstName))
-                .Message("Nice to meet you, {FirstName}!")
-                .Field(nameof(WinGadgets))
-
-
-
                 .Field(nameof(LastName))
                 .Field(nameof(Email))
+                .Field(nameof(WinGadgets))
                 .AddRemainingFields()
                 .OnCompletion(processPersonalData)
                 .Build();
         }
     }
 }
-
-/*
- * 
- *                 .Field(nameof(WinGadgets),
-                            validate: (state, value) =>
-                            {
-                                var result = new ValidateResult { IsValid = true, Value = value };
-                                var blnGadgets = (bool) value;
-
-                                if (!blnGadgets)
-                                {
-                                    result.Feedback = "Waarom niet???";
-                                    result.IsValid = false;
-                                }
-
-                                return Task.FromResult(result);
-                            })
-
-
-                    .Confirm((state) =>
-                {
-                    return Task.FromResult(new PromptAttribute("Can we still continue with the bot?"));
-                })
-*/
