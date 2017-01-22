@@ -27,7 +27,7 @@ namespace Visug2CommitBOTApp.FormFlow
         public string LastName { get; set; }
         [Prompt("What's your email?")]
         public string Email { get; set; }
-        [Prompt("Thank you {FirstName} {LastName}. Can we contact you on your email ({Email}) regarding Azure & .NET news?")]
+        [Prompt("Thank you {FirstName} {LastName}. Can we contact you on your email ({Email}) regarding Azure & .NET news? {||}")]
         public bool CanContactByEmail { get; set; }
         private DateTime StartTime { get; set; }
 
@@ -47,25 +47,28 @@ namespace Visug2CommitBOTApp.FormFlow
                     StartTime = state.StartTime,
                     EndTime = DateTime.UtcNow,
                     CanContactByEmail = state.CanContactByEmail,
-                    WinGadgets = state.WinGadgets
+                    WinGadgets = state.WinGadgets,
+                    //HelloMessage = state.HelloMessage
                 };
 
                 await VisugRepoTableStorage<Registrant>.CreateItemAsync(registrant);
 
                 Thread.Sleep(2500);
 
+                
                 if (state.WinGadgets)
                 {
-                    await context.PostAsync("Just kidding, your data was sent to Azure. \n We will contact you next week regarding the tech gadgets. \n - Esther");
+                    await context.PostAsync("Just kidding, your data was sent to Azure. We will contact you next week regarding the tech gadgets. Esther");
                 }
                 else
                 {
-                    await context.PostAsync("Just kidding, your data was sent to Azure. - Esther");
+                    await context.PostAsync("Just kidding, your data was sent to Azure. Esther");
                 }
 
             };
 
             return new FormBuilder<PersonalData>()
+                //.Field(nameof(HelloMessage))
                 .Message("Hello, this is Esther. I'm the 2Commit bot!")
                 .Field(nameof(FirstName))
                 .Field(nameof(LastName))

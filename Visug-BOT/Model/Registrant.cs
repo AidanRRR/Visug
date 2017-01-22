@@ -18,6 +18,7 @@ namespace Visug2CommitBOTApp.Model
         public new DateTime Timestamp { get; set; }
         public DateTime StartTime { get; set; }
         public DateTime EndTime { get; set; }
+        public string HelloMessage { get; set; }
 
         public Registrant(string firstName, string lastName)
         {

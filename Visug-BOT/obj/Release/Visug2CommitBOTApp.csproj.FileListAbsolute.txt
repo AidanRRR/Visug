@@ -37,3 +37,86 @@ C:\Users\rypenai\documents\visual studio 2015\Projects\Visug2CommitBOTApp\bin\zh
 C:\Users\rypenai\documents\visual studio 2015\Projects\Visug2CommitBOTApp\obj\Release\Bot Application1.dll
 C:\Users\rypenai\documents\visual studio 2015\Projects\Visug2CommitBOTApp\obj\Release\Bot Application1.pdb
 C:\Users\rypenai\documents\visual studio 2015\Projects\Visug2CommitBOTApp\obj\Release\Visug2CommitBOTApp.csprojResolveAssemblyReference.cache
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\Bot Application1.dll.config
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\Bot Application1.dll
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\Bot Application1.pdb
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\EntityFramework.dll
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\EntityFramework.SqlServer.dll
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\Microsoft.Azure.KeyVault.Core.dll
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\Microsoft.Bot.Builder.dll
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\Microsoft.Bot.Connector.dll
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\Microsoft.Data.Edm.dll
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\Microsoft.Data.OData.dll
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\Microsoft.Data.Services.Client.dll
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\Microsoft.IdentityModel.Logging.dll
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\Microsoft.IdentityModel.Tokens.dll
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\Microsoft.Rest.ClientRuntime.dll
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\Microsoft.WindowsAzure.Storage.dll
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\Newtonsoft.Json.dll
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\System.Spatial.dll
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\EntityFramework.xml
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\EntityFramework.SqlServer.xml
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\Microsoft.Azure.KeyVault.Core.xml
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\Microsoft.Bot.Builder.xml
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\Microsoft.Bot.Connector.xml
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\Microsoft.Data.Edm.xml
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\Microsoft.Data.OData.xml
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\Microsoft.Data.Services.Client.xml
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\Microsoft.IdentityModel.Logging.xml
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\Microsoft.IdentityModel.Tokens.xml
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\Microsoft.WindowsAzure.Storage.pdb
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\Microsoft.WindowsAzure.Storage.xml
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\Newtonsoft.Json.xml
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\System.IdentityModel.Tokens.Jwt.pdb
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\System.IdentityModel.Tokens.Jwt.xml
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\System.Spatial.xml
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\ar\Microsoft.Bot.Builder.resources.dll
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\cs\Microsoft.Bot.Builder.resources.dll
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\de-dE\Microsoft.Bot.Builder.resources.dll
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\en\Microsoft.Bot.Builder.resources.dll
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\es\Microsoft.Bot.Builder.resources.dll
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\fa\Microsoft.Bot.Builder.resources.dll
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\fr\Microsoft.Bot.Builder.resources.dll
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\ja\Microsoft.Bot.Builder.resources.dll
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\ru\Microsoft.Bot.Builder.resources.dll
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\zh-hans\Microsoft.Bot.Builder.resources.dll
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\de\Microsoft.Data.Edm.resources.dll
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\es\Microsoft.Data.Edm.resources.dll
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\it\Microsoft.Data.Edm.resources.dll
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\de\Microsoft.Data.OData.resources.dll
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\es\Microsoft.Data.OData.resources.dll
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\fr\Microsoft.Data.OData.resources.dll
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\it\Microsoft.Data.OData.resources.dll
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\ja\Microsoft.Data.OData.resources.dll
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\ko\Microsoft.Data.OData.resources.dll
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\ru\Microsoft.Data.OData.resources.dll
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\de\Microsoft.Data.Services.Client.resources.dll
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\es\Microsoft.Data.Services.Client.resources.dll
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\fr\Microsoft.Data.Services.Client.resources.dll
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\it\Microsoft.Data.Services.Client.resources.dll
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\ja\Microsoft.Data.Services.Client.resources.dll
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\ko\Microsoft.Data.Services.Client.resources.dll
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\ru\Microsoft.Data.Services.Client.resources.dll
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\zh-Hans\Microsoft.Data.Services.Client.resources.dll
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\zh-Hant\Microsoft.Data.Services.Client.resources.dll
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\de\System.Spatial.resources.dll
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\es\System.Spatial.resources.dll
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\fr\System.Spatial.resources.dll
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\it\System.Spatial.resources.dll
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\ja\System.Spatial.resources.dll
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\ko\System.Spatial.resources.dll
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\ru\System.Spatial.resources.dll
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\zh-Hans\System.Spatial.resources.dll
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\bin\zh-Hant\System.Spatial.resources.dll
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\obj\Release\Visug2CommitBOTApp.csprojResolveAssemblyReference.cache
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\obj\Release\Bot Application1.dll
+C:\Users\rypenai\Documents\repos\Visug\Visug-BOT\obj\Release\Bot Application1.pdb
