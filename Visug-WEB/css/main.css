@@ -130,6 +130,20 @@ h5 {
 .content-wrap {
 }
 
+.chatwindowiframe {
+    background-color: white;
+}
+
+.iframe-chat {
+    margin-top: 20px;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    /*height: 550px;*/
+    height: 500px;
+}
+
+
 @media (max-width: 450px) {
     h1 {
         font-family: 'Oswald', serif;
@@ -175,11 +189,13 @@ h5 {
         overflow-x: hidden;
     }
 
+    /*
     .chatwindowiframe {
         background-color: white;
         width: 250px;
         height: 200px;
     }
+    */
 }
 
 @media (min-width: 450px) {
@@ -230,11 +246,13 @@ h5 {
         overflow-x: hidden;
     }
 
+    /*
     .chatwindowiframe {
         background-color: white;
         width: 400px;
         height: 300px;
     }
+    */
 }
 
 /* Small devices (tablets, 768px and up) */
@@ -284,11 +302,13 @@ h5 {
         overflow-x: hidden;
     }
 
+    /*
     .chatwindowiframe {
         background-color: white;
         width: 600px;
         height: 400px;
     }
+    */
 }
 
 /* Small devices (tablets, 768px and up) */
@@ -334,16 +354,19 @@ h5 {
         margin-top: 2rem;
     }
 
+
     body {
         background-color: transparent;
         overflow-x: hidden;
     }
 
+    /*
     .chatwindowiframe {
         background-color: white;
         width: 600px;
         height: 400px;
     }
+    */
 }
 
 /* Medium devices (desktops, 992px and up) */
@@ -394,11 +417,13 @@ h5 {
         overflow-x: hidden;
     }
 
+    /*
     .chatwindowiframe {
         background-color: white;
         width: 800px;
         height: 400px;
     }
+    */
 }
 
 /* Large devices (large desktops, 1200px and up) */
@@ -448,11 +473,13 @@ h5 {
         overflow-x: hidden;
     }
 
+    /*
     .chatwindowiframe {
         background-color: white;
         width: 800px;
         height: 400px;
     }
+    */
 }
 
 
